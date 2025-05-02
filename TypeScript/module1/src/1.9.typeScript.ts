@@ -5,7 +5,7 @@
   type Student = {
     name: string;
     age: number;
-    gender: "male" | "Female" | "Others";
+    gender: "male" | "Female" | "Others"; //String Literal type || Union Type
     contactNo?: string;
     address: string;
   };
