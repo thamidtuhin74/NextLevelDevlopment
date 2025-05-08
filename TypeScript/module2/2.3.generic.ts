@@ -1,5 +1,5 @@
 {
-    // generic Type
+    // generic Type ->👉We can create reuseable types
 
     type GenericArray = Array<number>;//Statc Generic Type Array
 
