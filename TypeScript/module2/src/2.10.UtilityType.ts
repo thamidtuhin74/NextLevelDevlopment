@@ -44,10 +44,18 @@
   };
   // person2.age = 1; //Can't Write or change;
 
-  // Record 👇 : USER for make type dynamic
-  type MyObj = {
-    a: string;
-    b: string;
+  // Record Type👇 : USE for make  dynamic Object
+
+  // type MyObj = {
+  //   a: string;
+  //   b: string;
+  // };
+  type MyObj = Record<string, unknown>;
+  const myObj1: MyObj = {
+    name: "Tahmid",
+    age: 27,
+    user: false,
+    email: "tahmid@gmail.com",
   };
 
   //
