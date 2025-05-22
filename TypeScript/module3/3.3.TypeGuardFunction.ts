@@ -1,5 +1,5 @@
 {
-  // Type Guard
+  // Type Guard => also type narrowing
   // We know: 👉👉typeof --> work on the RUN time;
 
   // 1️⃣ typeof as Type Guard👇👇👇
