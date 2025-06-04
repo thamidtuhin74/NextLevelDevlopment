@@ -1,6 +1,6 @@
 {
   // defaultly all of them are 👉Public
-  // 👉readonly , 👉private , 👉Public readonly
+  // 👉readonly , 👉private , 👉Public readonly, 👉protected
 
   //   👉👉👉 There is a convention for use PRIVATE property like that👇👇👇
   //   👉👉👉👉 User Underscore for the Private Properties. Examples: 👇
@@ -16,3 +16,8 @@
     }
   }
 }
+
+👉protected vs Protected???👇👇👇
+
+// 1. private properrties can't be access from the outside of the class as a property & cant extend  to the child ;
+// 1. Protected propertis cant acess from the outside of the class but can extend with the child;
