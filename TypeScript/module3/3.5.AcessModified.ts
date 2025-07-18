@@ -17,7 +17,7 @@
   }
 }
 
-👉protected vs Protected???👇👇👇
+// 👉protected vs Protected???👇👇👇
 
-// 1. private properrties can't be access from the outside of the class as a property & cant extend  to the child ;
-// 1. Protected propertis cant acess from the outside of the class but can extend with the child;
+// 1. private properrties can't be access from the outside of the class as a property & can't extend  to the child ;
+// 1. Protected propertis can't acess from the outside of the class but can extend with the child;
